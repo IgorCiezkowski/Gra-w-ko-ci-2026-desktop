@@ -25,6 +25,12 @@ namespace Gra_w_kości_2026_desktop
             InitializeComponent();
         }
 
+        public string[] Kosci = ["/Images/kosc0.png", "/Images/kosc1.png", "/Images/kosc2.png", "/Images/kosc3.png", "/Images/kosc4.png", "/Images/kosc5.png", "/Images/kosc6.png"];
+
+        int wynik = 0;
+        bool[] avaialakdkf = [true, true, true, true, true, true];
+
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             
