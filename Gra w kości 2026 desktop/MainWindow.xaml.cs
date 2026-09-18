@@ -27,7 +27,37 @@ namespace Gra_w_kości_2026_desktop
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            
+        }
 
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            if (kosc1.Opacity == 0.5) kosc1.Opacity = 1;
+            else kosc1.Opacity = 0.5;
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            if (kosc2.Opacity == 0.5) kosc2.Opacity = 1;
+            else kosc2.Opacity = 0.5;
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            if (kosc3.Opacity == 0.5) kosc3.Opacity = 1;
+            else kosc3.Opacity = 0.5;
+        }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            if (kosc4.Opacity == 0.5) kosc4.Opacity = 1;
+            else kosc4.Opacity = 0.5;
+        }
+
+        private void Button_Click_5(object sender, RoutedEventArgs e)
+        {
+            if (kosc5.Opacity == 0.5) kosc5.Opacity = 1;
+            else kosc5.Opacity = 0.5;
         }
     }
 }
