@@ -25,15 +25,25 @@ namespace Gra_w_kości_2026_desktop
             InitializeComponent();
         }
 
-        public string[] Kosci = ["/Images/kosc0.png", "/Images/kosc1.png", "/Images/kosc2.png", "/Images/kosc3.png", "/Images/kosc4.png", "/Images/kosc5.png", "/Images/kosc6.png"];
+        public string[] Img = { "/Images/kosc0.png", "/Images/kosc1.png", "/Images/kosc2.png", "/Images/kosc3.png", "/Images/kosc4.png", "/Images/kosc5.png", "/Images/kosc6.png" };
 
         int wynik = 0;
-        bool[] avaialakdkf = [true, true, true, true, true, true];
+        bool[] avaiabala = { true, true, true, true, true, true };
+        int[] kosci =  {0, 0, 0, 0, 0 };
+
+        Random rnd = new Random();
 
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            
+            for (int i = 0; i<6; i++)
+            {
+                if (avaiabala[i])
+                {
+                    kosci[i] = rnd.Next(1, 7);
+                    
+                }
+            }
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
